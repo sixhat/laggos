@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.0"
+   width="744.09448"
+   height="1052.3622"
+   id="svg2">
+  <defs
+     id="defs4">
+    <filter
+       id="filter4183">
+      <feGaussianBlur
+         id="feGaussianBlur4185"
+         stdDeviation="8.7804137"
+         inkscape:collect="always" />
+    </filter>
+  </defs>
+  <g
+     id="layer1">
+    <g
+       id="g4187">
+      <path
+         d="M 156.50536,387.87384 L 449.23642,383.32935 C 460.2305,383.32935 469.08134,392.32448 469.08134,403.4978 L 469.08134,703.76416 C 469.08134,714.93749 460.2305,723.93262 449.23642,723.93262 L 129.97283,723.93262 C 118.97874,723.93262 110.12791,714.93749 110.12791,703.76416 L 136.66044,408.04229 C 136.66044,396.86897 145.51127,387.87384 156.50536,387.87384 z "
+         transform="matrix(0.9955277,-9.4470211e-2,0.1289756,0.9916478,0,0)"
+         style="opacity:0.82389939;fill:#2e218e;fill-opacity:1;fill-rule:evenodd;stroke:#20242a;stroke-width:30.00904655;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:0.73885348;filter:url(#filter4183)"
+         id="rect2160" />
+      <path
+         d="M 212.83168,356.84915 L 503.66743,324.68825 C 514.61234,323.64963 524.58375,331.73349 526.02484,342.81349 L 564.75187,640.57197 C 566.19296,651.65198 558.54186,661.40812 547.59694,662.44673 L 229.7612,692.60763 C 218.81628,693.64624 208.84488,685.56238 207.40379,674.48237 L 195.67675,378.7239 C 194.23567,367.6439 201.88676,357.88776 212.83168,356.84915 z "
+         style="fill:#2e218e;fill-opacity:1;fill-rule:evenodd;stroke:#cdd2da;stroke-width:30;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1"
+         id="path3135" />
+      <path
+         d="M 505.71875,324.59375 C 505.04414,324.58889 504.34031,324.62259 503.65625,324.6875 L 212.84375,356.84375 C 201.89883,357.88236 194.24643,367.63874 195.6875,378.71875 L 200.75,506.15625 C 231.82886,486.63675 272.06785,468.90424 323,459.375 C 407.27865,443.60673 480.8503,407.14776 530.5,377.15625 L 526.03125,342.8125 C 524.68023,332.425 515.83786,324.66664 505.71875,324.59375 z "
+         style="opacity:0.13836478;fill:#e2defd;fill-opacity:1;fill-rule:evenodd;stroke:#e8e9ef;stroke-width:30;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1"
+         id="path4106" />
+    </g>
+  </g>
+</svg>
