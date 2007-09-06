@@ -1,0 +1,19 @@
+TODO - RoadMap para a versão 1.0
+
+[Objectivos para versão 1.0]
+*	Preference Pane com:
+	*	Possibilidade de escolha das dimensões máximas das imagens
+	*	Possibilidade de escolha do formato de gravação das imagens
+	*	Possibilidade de escolha da localização da gravação das imagens
+
+[versão 0.9.2]
+*	Licenciamento do software sobe a licença MIT
+
+[versão 0.9.1]
+*	Novo Icone
+*	About personalizado com link para a página do projecto
+
+[versão 0.9]
+Primeiro Lançamento
+* Reduz imagens para 240px de lado
+* Grava as imagens no Desktop
