@@ -18,13 +18,19 @@
  LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
  OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
  THE SOFTWARE.
- */
+ */ 
 
 #import "LaggosApp.h"
 
 @implementation LaggosApp
 
 // 
+- (void) awakeFromNib {
+	
+	laggosURL = [[NSURL alloc] initWithString:@"http://david.topdospods.com/laggos/"];
+	sixhatURL = [[NSURL alloc] initWithString:@"http://sixhat.wordpress.com/"];
+
+}
 - (void)orderFrontStandardAboutPanel:(id)sender
 {
 	
@@ -34,39 +40,17 @@
 	}
 	[aboutPanel makeKeyAndOrderFront:self];
 	
-	
-	
-	
 }
 
 - (IBAction)sendUserURL:(id)sender
 {
-    // load the script from a resource by fetching its URL from within our bundle
-    NSString* path = [[NSBundle mainBundle] pathForResource:@"script4" ofType:@"scpt"];
-    if (path != nil)
-    {
-        NSURL* url = [NSURL fileURLWithPath:path];
-        if (url != nil)
-        {
-            NSDictionary* errors = [NSDictionary dictionary];
-            NSAppleScript* appleScript =
-				[[NSAppleScript alloc] initWithContentsOfURL:url error:&errors];
-            if (appleScript != nil)
-            {
-				// call the event in AppleScript
-				[appleScript executeAndReturnError:nil];
-//				[appleScript executeAndReturnError:<#(NSDictionary * *)errorInfo#>]
-                				
-                [appleScript release];
-            }
-            else
-            {
-                // report any errors from 'errors'
-            }
-        }
-    }
-}
+	if ([[sender selectedCell] tag] == 110) {
+		[[NSWorkspace sharedWorkspace] openURL:sixhatURL];
+	} else {
+		[[NSWorkspace sharedWorkspace] openURL:laggosURL]; 
+	}
 
+}
 
 
 @end

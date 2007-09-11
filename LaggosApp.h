@@ -24,6 +24,8 @@
 
 @interface LaggosApp : NSApplication
 {
+	NSURL	*laggosURL;
+	NSURL	*sixhatURL;
     IBOutlet id aboutPanel;
 }
 - (IBAction)sendUserURL:(id)sender;
