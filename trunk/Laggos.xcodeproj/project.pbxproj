@@ -13,28 +13,12 @@
 		631AF0590C789BBC002B9B4E /* AppleScriptKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 631AF0580C789BBC002B9B4E /* AppleScriptKit.framework */; };
 		631E1FF00C68BAE30021E234 /* SPPProcessImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 631E1FEF0C68BAE30021E234 /* SPPProcessImage.m */; };
 		63611A460C776958000654D4 /* Laggos.icns in Resources */ = {isa = PBXBuildFile; fileRef = 63611A450C776958000654D4 /* Laggos.icns */; };
-		638A0A450C78A4C500519591 /* script4.scpt in Resources */ = {isa = PBXBuildFile; fileRef = 638A0A440C78A4B900519591 /* script4.scpt */; };
 		63CAA4920C908C9000CBDD09 /* LICENSE.TXT in Resources */ = {isa = PBXBuildFile; fileRef = 63CAA4910C908C9000CBDD09 /* LICENSE.TXT */; };
 		8D11072A0486CEB800E47090 /* MainMenu.nib in Resources */ = {isa = PBXBuildFile; fileRef = 29B97318FDCFA39411CA2CEA /* MainMenu.nib */; };
 		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
 		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
 		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXBuildStyle section */
-		4A9504CCFFE6A4B311CA0CBA /* Debug */ = {
-			isa = PBXBuildStyle;
-			buildSettings = {
-			};
-			name = Debug;
-		};
-		4A9504CDFFE6A4B311CA0CBA /* Release */ = {
-			isa = PBXBuildStyle;
-			buildSettings = {
-			};
-			name = Release;
-		};
-/* End PBXBuildStyle section */
 
 /* Begin PBXFileReference section */
 		089C165DFE840E0CC02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
@@ -173,8 +157,6 @@
 			);
 			buildRules = (
 			);
-			buildSettings = {
-			};
 			dependencies = (
 			);
 			name = Laggos;
@@ -189,12 +171,6 @@
 		29B97313FDCFA39411CA2CEA /* Project object */ = {
 			isa = PBXProject;
 			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Laggos" */;
-			buildSettings = {
-			};
-			buildStyles = (
-				4A9504CCFFE6A4B311CA0CBA /* Debug */,
-				4A9504CDFFE6A4B311CA0CBA /* Release */,
-			);
 			hasScannedForEncodings = 1;
 			mainGroup = 29B97314FDCFA39411CA2CEA /* Laggos */;
 			projectDirPath = "";
@@ -210,7 +186,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				63CAA4920C908C9000CBDD09 /* LICENSE.TXT in Resources */,
-				638A0A450C78A4C500519591 /* script4.scpt in Resources */,
 				8D11072A0486CEB800E47090 /* MainMenu.nib in Resources */,
 				8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */,
 				63611A460C776958000654D4 /* Laggos.icns in Resources */,
